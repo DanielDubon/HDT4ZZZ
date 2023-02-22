@@ -48,7 +48,7 @@ public class Calculator {
     }
 
 
-    public int mainOperation(String postfix, AbstractStack<Integer> stack){
+    public int Operate(String postfix, AbstractStack<Integer> stack){
         ArrayList<String> data = pc.getItems(postfix);
         AbstractStack<Integer> auxStack = new StackFactory<Integer>().createStack("ARRAY_LIST");
 

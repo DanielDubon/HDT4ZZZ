@@ -24,7 +24,7 @@ public class Main {
         ReadFile reader = new ReadFile();
         Calculator calculator = Calculator.getInstance();
         String postfix = InfixToPostfix.infixToPostfix(reader.text("C:\\Users\\danie\\Documents\\Progra\\HDT4ZZZ\\src\\UI\\txta.txt"));
-        int resultado = calculator.mainOperation(postfix,stack);
+        int resultado = calculator.Operate(postfix,stack);
         System.out.println(resultado);
 
 
