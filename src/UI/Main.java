@@ -25,7 +25,7 @@ public class Main {
         Calculator calculator = Calculator.getInstance();
         String postfix = InfixToPostfix.infixToPostfix(reader.text("C:\\Users\\danie\\Documents\\Progra\\HDT4ZZZ\\src\\UI\\txta.txt"));
         int resultado = calculator.Operate(postfix,stack);
-        System.out.println(resultado);
+        System.out.println("RESULTADO CON "+stackType+" : "+resultado);
 
 
 
