@@ -44,16 +44,16 @@ public class Main {
             case "2":
                 return "ARRAY_LIST";
             case "3":
-                System.out.println("¿Que tipo de lista desea utilizar?: ");
+                System.out.println("Seleccione Lista a usar: ");
                 System.out.println("1. SimplementeEncadenada");
                 System.out.println("2. DoblementeEncadenada");
-                String opt2 = n.nextLine();
-                if(opt2.equals("1")){
+                String opcion2 = n.nextLine();
+                if(opcion2.equals("1")){
                     return "SINGLE_LIST";
-                } else if (opt2.equals("2")) {
+                } else if (opcion2.equals("2")) {
                     return "DOUBLE_LIST";
                 } else {
-                    System.out.println("La opcion seleccionada no existe");
+                    System.out.println("No se eligio algo valido");
                 }
                 break;
         }
